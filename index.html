@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulmaq - Servicios Preventivos</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
+    header { background: #FFFFFF; color: black; padding: 20px; text-align: center; }
+    header img { max-height: 300px; margin-bottom: 30px; }
+    nav { background: #072d68; text-align: center; padding: 10px; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    h2 { color: #0b3d91; }
+    .services { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); flex: 1 1 300px; }
+    .alliances { background: #eef3fa; padding: 30px; text-align: center; border-radius: 10px; }
+    form { display: flex; flex-direction: column; gap: 15px; max-width: 500px; margin: auto; }
+    input, textarea, button { padding: 10px; border-radius: 5px; border: 1px solid #ccc; }
+    button { background: #0b3d91; color: white; border: none; cursor: pointer; font-weight: bold; }
+    button:hover { background: #072d68; }
+    footer { background: #0b3d91; color: white; text-align: center; padding: 15px; margin-top: 30px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="assets/LOGO.png" alt="Logo Consulmaq">
+  <h1>Consulmaq - Mantenimiento Preventivo</h1>
+  <p>Gestión y seguimiento para flotas y equipos de construcción</p>
+</header>
+
+<nav>
+  <a href="#servicios">Servicios</a>
+  <a href="#alianzas">Alianzas</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="servicios">
+  <h2>Planes de Servicios</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Plan Profesional</h3>
+      <p>✔ Seguimiento preventivo<br>
+         ✔ Visitas Trimestrales<br>
+         ✔ Alertas y reportes<br>
+         ✔ KPI de mantenimiento</p>
+    </div>
+    <div class="card">
+      <h3>Plan Premium</h3>
+      <p>✔ Visitas mensuales<br>
+         ✔ Soporte presencial<br>
+         ✔ Auditorías preventivas<br>
+         ✔ Indicadores avanzados</p>
+    </div>
+  </div>
+</section>
+
+<section id="alianzas">
+  <h2>Alianzas Estratégicas</h2>
+  <div class="alliances">
+    <p><strong> Integración con</strong>  ERP´s para el monitoreo y seguimiento de mantenimiento de flotas.</p>
+    <p>Empresas IoT y Telemática</p>
+  </div>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p>Ponte en contacto con nosotros para más información o solicitar una propuesta personalizada.</p>
+  <form action="https://formspree.io/f/mwprrryw" method="POST">
+    <input type="text" name="nombre" placeholder="Nombre" required>
+    <input type="email" name="email" placeholder="Correo electrónico" required>
+    <input type="text" name="empresa" placeholder="Empresa">
+    <textarea name="mensaje" placeholder="Mensaje" rows="5" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Consulmaq | Tel: +57 3135458045 | Email: consulmaq01@gmail.com</p>
+</footer>
+
+</body>
+</html>
